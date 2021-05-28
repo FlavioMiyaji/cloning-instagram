@@ -1,0 +1,144 @@
+:root {
+  --header-bg-color: #fefefe;
+  --border-color: #dbdbdb;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  vertical-align: baseline;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+h1, h2, h3 {
+  margin: 0;
+}
+p {
+  margin: 0;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.4rem 1rem;
+
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+
+  background-color: var(--header-bg-color);
+  border-bottom: solid 1px var(--border-color);
+  z-index: 1;
+}
+i {
+  width: 24px;
+  height: 24px;
+}
+.stories {
+  max-width: 100%;
+  overflow: scroll;
+  border-bottom: solid 1px var(--border-color);
+}
+.stories::-webkit-scrollbar{
+  display: none;
+}
+.stories-content {
+  gap: 0.6rem;
+  width: fit-content;
+  display: flex;
+  flex-direction: row;
+  padding: 0.7rem;
+}
+.story {
+  max-width: 70px;
+}
+.story-avatar {
+  border-radius: 50%;
+  border: solid 0.2rem aqua;
+  width: 56px;
+  padding: 2px;
+}
+.story p {
+  font-size: 12px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.container {
+  flex-grow: 1;
+  margin: auto;
+  margin-top: 54px;
+  margin-bottom: 28px;
+  max-width: 600px;
+  width: 100%;
+}
+.card {
+  gap: 0.7rem;
+  border-bottom: solid 1px var(--border-color);
+}
+.post-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.6rem;
+}
+.post-who {
+  display: flex;
+  align-items: center;
+}
+.post-who h2 {
+  font-weight: 600;
+  font-size: 1rem;
+  padding: 0.4rem;
+}
+.post-avatar {
+  border-radius: 50%;
+  border: solid 0.2rem aqua;
+  width: 42px;
+  padding: 2px;
+}
+.post-content {
+  width: 100%;
+}
+.post-footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 0.6rem;
+}
+.post-comments {
+  padding: 0.6rem;
+}
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.4rem 1rem;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+
+  background-color: var(--header-bg-color);
+  border-top: solid 1px var(--border-color);
+  z-index: 1;
+}
+@media (min-width: 600px) {
+  .stories {
+    border: solid 1px var(--border-color);
+    border-radius: 0.3rem;
+    margin-bottom: 3rem;
+  }
+  .card {
+    border: solid 1px var(--border-color);
+    border-radius: 0.3rem;
+    margin-bottom: 3rem;
+  }
+}
+@media (min-width: 1000px) {
+  .stories {
+    display: none;
+  }
+}
