@@ -6,6 +6,7 @@ Cloning the interface of Instagram
   - [x] Create the HTML/CSS files;
   - [x] Download Feathers Icons from: https://feathericons.com/;
   - [x] Separate screen Header/Stories/Container/Footer;
+  - [x] Mobile first concept
   - [x] Fixate the header on the top and the footer on bottom;
   - [x] Add the header with the icons;
   - [x] Add Stories:
@@ -17,5 +18,6 @@ Cloning the interface of Instagram
     - [x] post user nickname;
     - [x] and more options icon;
   - [x] Add icons on te footer Home/Search/Add/Heart/User.
+  - [x] Refactor to responsivity
 - [ ] 29/05/2021 - Second commit:
   - [ ] Create HTML/CSS for the Profile page;
