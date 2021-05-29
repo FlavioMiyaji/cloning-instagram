@@ -20,4 +20,6 @@ Cloning the interface of Instagram
   - [x] Add icons on te footer Home/Search/Add/Heart/User.
   - [x] Refactor to responsivity
 - [ ] 29/05/2021 - Second commit:
-  - [ ] Create HTML/CSS for the Profile page;
+  - [x] Create HTML/CSS for the Profile page;
+  - [x] Separate the screen in header/user profile/actions/footer;
+
