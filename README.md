@@ -1,4 +1,4 @@
-# cloning-instagram
+M# cloning-instagram
 Cloning the interface of Instagram
 
 # Home page of Instagram cloning
@@ -19,7 +19,15 @@ Cloning the interface of Instagram
     - [x] and more options icon;
   - [x] Add icons on te footer Home/Search/Add/Heart/User.
   - [x] Refactor to responsivity
-- [ ] 30/05/2021 - Second commit:
+- [x] 30/05/2021 - Second commit: Profile (Mobile First)
   - [x] Create HTML/CSS for the Profile page;
-  - [x] Separate the screen in header/user profile/actions/footer;
+  - [x] Separate the screen in header/user profile/actions/posts/footer;
+  - [x] On header add settings and add user icons and Instagram username;
+  - [x] On user profile add User avatar, Username, Edit Profike button;
+  - [x] Add counts: Posts, followers and following;
+  - [x] On Actions add Grid view posts, List view posts, Saved posts and User taggeds;
+  - [x] On Posts add posts images;
+  - [ ] On footer add icons Home, Search, Add, Heart and User;
+- [ ] 31/05/2021 - Third commit: Profile Browser responsivity refactor:
+  - [ ] 
 
