@@ -27,7 +27,7 @@ Cloning the interface of Instagram
   - [x] Add counts: Posts, followers and following;
   - [x] On Actions add Grid view posts, List view posts, Saved posts and User taggeds;
   - [x] On Posts add posts images;
-  - [ ] On footer add icons Home, Search, Add, Heart and User;
+  - [x] On footer add icons Home, Search, Add, Heart and User;
 - [ ] 31/05/2021 - Third commit: Profile Browser responsivity refactor:
   - [ ] 
 
