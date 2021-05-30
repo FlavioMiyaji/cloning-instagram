@@ -19,6 +19,9 @@ Cloning the interface of Instagram
     - [x] and more options icon;
   - [x] Add icons on te footer Home/Search/Add/Heart/User.
   - [x] Refactor to responsivity
+
+<img src="/assets/readme/images/01 - Home page.png" width="500">
+
 - [x] 30/05/2021 - Second commit: Profile (Mobile First)
   - [x] Create HTML/CSS for the Profile page;
   - [x] Separate the screen in header/user profile/actions/posts/footer;
@@ -28,6 +31,9 @@ Cloning the interface of Instagram
   - [x] On Actions add Grid view posts, List view posts, Saved posts and User taggeds;
   - [x] On Posts add posts images;
   - [x] On footer add icons Home, Search, Add, Heart and User;
+
+<img src="/assets/readme/images/02 - Profile page.png" width="500">
+
 - [ ] 31/05/2021 - Third commit: Profile Browser responsivity refactor:
   - [ ] 
 
