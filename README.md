@@ -39,4 +39,4 @@ Cloning the interface of Instagram
   - [x] On footer add icons Home, Search, Add, Heart and User;
 - [ ] 31/05/2021 - Third commit: Profile Browser responsivity refactor:
   - [ ] 
-
+- [ ] Add Dark mode on CSS
