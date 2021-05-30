@@ -1,6 +1,8 @@
 # cloning-instagram
 Cloning the interface of Instagram
 
+Logotipo from: https://www.canva.com/join/lln-hvk-wlf
+
 # Mobile
 |Home page|Profile page|
 |-|-|
