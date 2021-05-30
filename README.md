@@ -1,9 +1,14 @@
-M# cloning-instagram
+# cloning-instagram
 Cloning the interface of Instagram
 
+# Mobile
 |Home page|Profile page|
 |-|-|
 |<img src="/assets/readme/images/01 - Home page.png" width="300">|<img src="/assets/readme/images/02 - Profile page.png" width="300">|
+
+# Browser
+|Home page|Profile page|
+|-|-|
 
 # Home page of Instagram cloning
 - [x] 28/05/2021 - First commit:
