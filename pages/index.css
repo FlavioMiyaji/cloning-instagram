@@ -190,4 +190,7 @@ i {
   .browser-header {
     display: none;
   }
+  .browser-footer {
+    display: none;
+  }
 }
