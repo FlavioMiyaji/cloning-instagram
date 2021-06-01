@@ -65,7 +65,7 @@ i {
   padding: 2px;
 }
 .story p {
-  font-size: 12px;
+  font-size: small;
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
@@ -95,7 +95,7 @@ i {
 }
 .post-who h2 {
   font-weight: 600;
-  font-size: 1rem;
+  font-size: medium;
   padding: 0.4rem;
 }
 .post-avatar {
