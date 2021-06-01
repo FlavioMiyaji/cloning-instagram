@@ -39,6 +39,7 @@ Logotipo from: https://www.canva.com/join/lln-hvk-wlf
   - [x] On Actions add Grid view posts, List view posts, Saved posts and User taggeds;
   - [x] On Posts add posts images;
   - [x] On footer add icons Home, Search, Add, Heart and User;
-- [ ] 31/05/2021 - Third commit: Profile Browser responsivity refactor:
-  - [ ] 
+- [x] 31/05/2021 - Third commit: Profile Browser responsivity refactor:
+  - [x] Home refactor for browser responsivity;
+  - [x] Profile refactor for browser responsivity;
 - [ ] Add Dark mode on CSS
