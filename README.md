@@ -11,6 +11,7 @@ Logotipo from: https://www.canva.com/join/lln-hvk-wlf
 # Browser
 |Home page|Profile page|
 |-|-|
+|<img src="/assets/readme/images/03 - Home page.png" width="500">|<img src="/assets/readme/images/04 - Profile page.png" width="500">|
 
 # Home page of Instagram cloning
 - [x] 28/05/2021 - First commit:
@@ -42,4 +43,3 @@ Logotipo from: https://www.canva.com/join/lln-hvk-wlf
 - [x] 31/05/2021 - Third commit: Profile Browser responsivity refactor:
   - [x] Home refactor for browser responsivity;
   - [x] Profile refactor for browser responsivity;
-- [ ] Add Dark mode on CSS
