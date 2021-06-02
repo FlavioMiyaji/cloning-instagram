@@ -43,3 +43,4 @@ Logotipo from: https://www.canva.com/join/lln-hvk-wlf
 - [x] 31/05/2021 - Third commit: Profile Browser responsivity refactor:
   - [x] Home refactor for browser responsivity;
   - [x] Profile refactor for browser responsivity;
+- [x] Adding Dark mode first part.
