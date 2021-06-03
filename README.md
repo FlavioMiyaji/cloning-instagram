@@ -45,3 +45,4 @@ Logotipo from: https://www.canva.com/join/lln-hvk-wlf
   - [x] Profile refactor for browser responsivity;
 - [x] Adding Dark mode first part.
 - [x] Adding search bar.
+- [ ] No Dark mode.
