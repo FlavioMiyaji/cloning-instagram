@@ -1,23 +1,18 @@
 :root {
-  --header-bg-color: #fefefe;
+  --bg-primary: #fefefe;
   --border-color: #dbdbdb;
-  --grey-font: #8e8e8e;
-  --dark-font: #020202;
+  --primary: #010101;
+  --disabled: #8e8e8e;
 }
 
-body {
+* {
+  background-color: var(--bg-primary);
   margin: 0;
   padding: 0;
-  border: 0;
-  font: inherit;
   vertical-align: baseline;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-h1, h2, h3 {
-  margin: 0;
-}
-p {
-  margin: 0;
+  color: var(--primary);
+  text-decoration: none;
 }
 
 .mobile-header {
@@ -31,7 +26,7 @@ p {
   left: 0;
   right: 0;
 
-  background-color: var(--header-bg-color);
+  background-color: var(--bg-primary);
   border-bottom: solid 1px var(--border-color);
   z-index: 1;
 }
@@ -49,12 +44,27 @@ p {
   left: 0;
   right: 0;
 
-  background-color: var(--header-bg-color);
+  background-color: var(--bg-primary);
   border-bottom: solid 1px var(--border-color);
   z-index: 1;
 }
 .browser-header .search {
-  background-color: #8e8e8e;
+  max-width: 215px;
+
+  border-radius: 4px;
+  padding: 0.3em;
+  border: solid 1px var(--border-color);
+
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.4em;
+  font-size: small;
+}
+.browser-header .search img {
+  width: 16px;
+  height: 16px;
 }
 .browser-header .logo {
   max-width: 120px;
@@ -93,17 +103,17 @@ i {
   flex-direction: column;
 }
 .user .username {
-  font-size: xx-large;
+  font-size: x-large;
   font-weight: 300;
   margin-bottom: 0.4rem;
 }
-.user button {
+.user a {
   padding: 8px;
   border-radius: 0.3rem;
   border: solid 1px var(--border-color);
-  width: 100%;
-  background-color: var(--header-bg-color);
+  background-color: var(--bg-primary);
   font-weight: 600;
+  text-align: center;
   text-overflow: ellipsis;
 }
 .user img {
@@ -128,11 +138,11 @@ i {
 }
 .user-counts .col p {
   font-size: medium;
-  color: var(--grey-font);
+  color: var(--disabled);
 }
 .user-counts .col p:first-child {
   font-weight: 600;
-  color: var(--dark-font);
+  color: var(--primary);
 }
 .mobile-user .user-counts {
   border-top: solid 1px var(--border-color);
@@ -176,20 +186,19 @@ i {
   left: 0;
   right: 0;
 
-  background-color: var(--header-bg-color);
+  background-color: var(--bg-primary);
   border-top: solid 1px var(--border-color);
   z-index: 1;
 }
 .browser-footer {
   padding: 1rem;
-  background-color: var(--header-bg-color);
+  background-color: var(--bg-primary);
   border-top: solid 1px var(--border-color);
 }
 .browser-footer > div {
   display: flex;
   align-items: center;
   justify-content: center;
-  color: var(--dark-font);
 }
 .browser-footer > div p {
   margin-left: 0.8rem;
@@ -217,6 +226,9 @@ i {
     align-items: center;
     justify-content: baseline;
   }
+  .user img {
+    display: block;
+  }
   .profile {
     padding: 2rem;
   }
@@ -235,8 +247,7 @@ i {
     flex-direction: row;
   }
   .user-counts .col p {
-    color: var(--dark-font);
-    margin-left: 0.2em;
+    margin-left: 0.4em;
   }
   .posts {
     gap: 1.6em;

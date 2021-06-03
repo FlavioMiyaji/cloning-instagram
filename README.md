@@ -35,7 +35,7 @@ Logotipo from: https://www.canva.com/join/lln-hvk-wlf
   - [x] Create HTML/CSS for the Profile page;
   - [x] Separate the screen in header/user profile/actions/posts/footer;
   - [x] On header add settings and add user icons and Instagram username;
-  - [x] On user profile add User avatar, Username, Edit Profike button;
+  - [x] On user profile add User avatar, Username, Edit Profile button;
   - [x] Add counts: Posts, followers and following;
   - [x] On Actions add Grid view posts, List view posts, Saved posts and User taggeds;
   - [x] On Posts add posts images;

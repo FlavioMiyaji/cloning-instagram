@@ -1,28 +1,22 @@
 :root {
-  --header-bg-color: #fefefe;
   --border-color: #dbdbdb;
-  --bory-bg-color: #fefefe;
-  --primary: #121212;
+  --bg-primary: #fefefe;
+  --primary: #010101;
 }
 
-body {
-  background-color: var(--bory-bg-color);
+* {
+  background-color: var(--bg-primary);
   margin: 0;
   padding: 0;
-  border: 0;
   font: inherit;
   vertical-align: baseline;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-h1, h2, h3 {
-  margin: 0;
-}
-p {
-  margin: 0;
+  color: var(--primary);
+  text-decoration: none;
 }
 
 .mobile-header {
-  background-color: var(--bory-bg-color);
+  background-color: var(--bg-primary);
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -33,7 +27,7 @@ p {
   left: 0;
   right: 0;
 
-  background-color: var(--header-bg-color);
+  background-color: var(--bg-primary);
   border-bottom: solid 1px var(--border-color);
   z-index: 1;
 }
@@ -41,7 +35,7 @@ p {
   width: 110px;
 }
 .browser-header {
-  background-color: var(--bory-bg-color);
+  background-color: var(--bg-primary);
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -52,12 +46,27 @@ p {
   left: 0;
   right: 0;
 
-  background-color: var(--header-bg-color);
+  background-color: var(--bg-primary);
   border-bottom: solid 1px var(--border-color);
   z-index: 1;
 }
 .browser-header .search {
-  background-color: #8e8e8e;
+  max-width: 215px;
+
+  border-radius: 4px;
+  padding: 0.3em;
+  border: solid 1px var(--border-color);
+
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.4em;
+  font-size: small;
+}
+.browser-header .search img {
+  width: 16px;
+  height: 16px;
 }
 .browser-header .logo {
   max-width: 120px;
@@ -158,7 +167,7 @@ i {
   left: 0;
   right: 0;
 
-  background-color: var(--header-bg-color);
+  background-color: var(--bg-primary);
   border-top: solid 1px var(--border-color);
   z-index: 1;
 }
