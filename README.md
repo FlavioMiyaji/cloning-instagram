@@ -17,9 +17,23 @@ Logotipo from: https://www.canva.com/join/lln-hvk-wlf
 - [x] 28/05/2021 - First commit:
   - [x] Create the HTML/CSS files;
   - [x] Download Feathers Icons from: https://feathericons.com/;
+    - [x] Pick the Icons;
   - [x] Separate screen Header/Stories/Container/Footer;
   - [x] Mobile first concept
   - [x] Fixate the header on the top and the footer on bottom;
+    - [x] Header: <pre>
+    <code>position: fixed;</code>
+    <code>top: 0;</code>
+    <code>left: 0;</code>
+    <code>right: 0;</code>
+    </pre>
+    
+    - [x] Footer: <pre>
+    <code>position: fixed;</code>
+    <code>bottom: 0;</code>
+    <code>left: 0;</code>
+    <code>right: 0;</code>
+    </pre>
   - [x] Add the header with the icons;
   - [x] Add Stories:
     - [x] Add the story user;
@@ -31,6 +45,7 @@ Logotipo from: https://www.canva.com/join/lln-hvk-wlf
     - [x] and more options icon;
   - [x] Add icons on te footer Home/Search/Add/Heart/User.
   - [x] Refactor to responsivity
+    - [x] Add browser header and footer;
 - [x] 30/05/2021 - Second commit: Profile (Mobile First)
   - [x] Create HTML/CSS for the Profile page;
   - [x] Separate the screen in header/user profile/actions/posts/footer;
@@ -45,4 +60,4 @@ Logotipo from: https://www.canva.com/join/lln-hvk-wlf
   - [x] Profile refactor for browser responsivity;
 - [x] Adding Dark mode first part.
 - [x] Adding search bar.
-- [ ] No Dark mode.
+- [x] No Dark mode.
