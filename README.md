@@ -62,3 +62,12 @@ Logotipo from: https://www.canva.com/join/lln-hvk-wlf
 - [x] Adding search bar.
 - [x] No Dark mode.
 - [x] Change 'top', 'rigth', 'bottom', 'left' to 'inset'.
+  - [x] Header: <pre>
+  <code>position: fixed;</code>
+  <code>inset: 0 0 auto 0;</code>
+  </pre>
+
+  - [x] Footer: <pre>
+  <code>position: fixed;</code>
+  <code>inset: auto 0 0 0;</code>
+  </pre>
