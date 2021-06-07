@@ -71,3 +71,4 @@ Logotipo from: https://www.canva.com/join/lln-hvk-wlf
   <code>position: fixed;</code>
   <code>inset: auto 0 0 0;</code>
   </pre>
+- [ ] Planning YouTube Video
